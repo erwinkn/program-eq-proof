@@ -1,8 +1,0 @@
-open import Relation.Binary.PropositionalEquality
-
-open import Data.Nat
-open import Data.Nat.Properties using (+-suc)
-
-open import Data.Product renaming (_×_ to _∧_)
-open import Data.Sum renaming (_⊎_ to _∨_ ; inj₁ to left ; inj₂ to right)
-
