@@ -1,0 +1,4 @@
+define Seq_p = fun (x : Nat) -> fun (y : Nat) -> fun (e : Eq x y) -> Eq (S x) (S y)
+define Seq_r = fun (x : Nat) -> Refl (S x)
+define Seq = fun (a : Nat) -> fun (b : Nat) -> fun (e : Eq a b) -> J Seq_p Seq_r a b e
+check Seq = Pi (x : Nat) -> Pi (y : Nat) -> Pi (e : Eq x y) -> Eq (S x) (S y)

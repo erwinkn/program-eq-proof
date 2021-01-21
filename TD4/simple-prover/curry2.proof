@@ -1,0 +1,6 @@
+intro x
+intro y
+cut B
+elim x
+fst y
+snd y

@@ -1,0 +1,6 @@
+intro x
+elim x
+right 
+exact x1
+left 
+exact x2

@@ -1,0 +1,7 @@
+intro x
+elim x
+right 
+intro y
+elim x
+left 
+exact y

@@ -1,0 +1,9 @@
+intro x
+intro y
+elim x
+cut _
+intro z
+elim z
+elim x1
+exact y
+exact x2

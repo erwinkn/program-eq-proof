@@ -1,0 +1,25 @@
+intro x
+intro y
+cut A \/ not A
+intro z
+elim z
+cut not A
+intro w
+elim w
+exact z1
+elim x
+exact z1
+elim z2
+cut A
+intro w
+exact w
+elim y
+exact z2
+right 
+intro z
+cut not A
+intro w
+elim w
+exact z
+elim x
+exact z
